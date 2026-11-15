@@ -1,0 +1,10 @@
+<Project>
+  <PropertyGroup>
+    <!-- Enables single-file bundling and build-time compatibility warnings -->
+    <PublishSingleFile>true</PublishSingleFile>
+        
+    <!-- Optional: Prevents generating a separate .pdb debug file during publish -->
+    <DebugType>embedded</DebugType>
+  
+  </PropertyGroup>
+</Project>

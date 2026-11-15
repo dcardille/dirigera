@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Dirigera.Cli/Dirigera.Cli.csproj" />
+  <Project Path="Dirigera.Lib/Dirigera.Lib.csproj" />
+</Solution>

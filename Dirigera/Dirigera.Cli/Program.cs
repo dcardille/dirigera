@@ -7,9 +7,11 @@ namespace Dirigera.Cli
     {
         static async Task Main(string[] args)
         {
+            // Check if an auth token is provided as a command line argument
             if (args.Length == 1)
             {
                 var dirigera = await DirigeraManager.Discover(args[0]);
+
                 Console.WriteLine($"IpAddress: {dirigera.IpAddress}");
                 Console.WriteLine($"Authenticated?: {await dirigera.IsAuthenticated()}");
 
